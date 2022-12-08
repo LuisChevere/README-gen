@@ -1,0 +1,23 @@
+{
+  "name": "challenge-readme-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisChevere/README-gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisChevere/README-gen/issues"
+  },
+  "homepage": "https://github.com/LuisChevere/README-gen#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
