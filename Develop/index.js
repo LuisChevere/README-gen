@@ -7,9 +7,7 @@ const util = require('util');
 
 
 // TODO: Create an array of questions for user input
-const questions =
-inquirer
-.prompt([
+const questions = [
     {
         type: 'input',
         name: 'title',
@@ -57,33 +55,21 @@ inquirer
         message: 'What is your email?',
     },
 
-])
-.then(data => info(data));
+    ]
 
 // TODO: Create a function to write README file
 function writeToFile (README, data) {
-    fs.writeFile(README, data, err => {
-        if(err) {
-            return console.log(err);
-        }
-        console.log("You've done it! Your README.md file has been created!!")
+    inquirer.prompt(questions)
+    .then((answers, data) => {
+     fs.writeFile("README.md", answers, data);   
+    })
+    .catch((err) => {
+        console.log(err);
     })
 }
-// const writeFileA = util.inquirer(writeToFile);
 
 // TODO: Create a function to initialize app
-// function init() {
-
-//     const userResponse = inquirer.prompt(questions);
-//     console.log("Your responses: ", userResponse);
-
-//     const userInfo = inquirer.prompt(userResponse);
-//     console.log("Your Github user info: ", userInfo);
-
-//     const markdown = generateMarkdown(userResponse, userInfo);
-//     console.log(markdown);
-
-// };
+function init() {}
 
 // Function call to initialize app
-// init();
+// init()
