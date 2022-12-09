@@ -20,11 +20,11 @@ function generateMarkdown(answers) {
 
   ## Table of Contents
   - [Description](#description)
-  - [Installation] (#installation)
-  - [Usage] (#usage)
-  - [License] (#license)
-  - [Contributions] (#contributions)
-  - [Tests] (#tests)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributions](#contributions)
+  - [Tests](#tests)
 
 ## Description
   ${answers.description}
