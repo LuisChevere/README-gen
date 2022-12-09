@@ -12,12 +12,11 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  return `<h1 align="center>#${answers.title}</h1>
+  return `
+  
+  <h1 align="center">#${answers.title}</h1>
 
-  ![badge] https://img.shields.io/badge/license-${answers.license}-yellow)</br>
-
-  ## Description
-  ${answers.description}
+  ![badge](https://img.shields.io/badge/license-${answers.license})<br />
 
   ## Table of Contents
   - [Description](#description)
@@ -26,6 +25,9 @@ function generateMarkdown(answers) {
   - [License] (#license)
   - [Contributions] (#contributions)
   - [Tests] (#tests)
+
+## Description
+  ${answers.description}
 
   ## Installation
   ${answers.installation}
@@ -37,7 +39,7 @@ function generateMarkdown(answers) {
   ${answers.contributions}
 
   ## Tests
-  - ${answers.tests}
+  - ${answers.test}
   
   ## License
   This application uses the ${answers.license} license.
@@ -45,7 +47,9 @@ function generateMarkdown(answers) {
   ## Questions
   ${answers.questions}</br>
   </br>
-  Github: [${answers.github}](https://github.com/${answers.github})</br>
+  Github: [${answers.github}](https://github.com/${answers.github})<br />
+  <br />
+  Email with any questions: ${answers.email}
 `;
 }
 
