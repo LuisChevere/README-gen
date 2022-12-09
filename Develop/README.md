@@ -1,8 +1,8 @@
 
   
-  <h1 align="center">#READ</h1>
+  <h1 align="center">#README</h1>
 
-  ![badge:](https://img.shields.io/badge/license-MIT License-yellow)<br />
+  ![badge:](https://img.shields.io/badge/license-MIT License-yellow.svg)<br />
 
   ## Table of Contents
   - [Description](#description)
@@ -13,19 +13,19 @@
   - [Tests](#tests)
 
 ## Description
-  No
+  no
 
   ## Installation
-  YEs
+  yes
 
   ## Usage
   maybe 
   
   ## Contributions
-  never
+  no
 
   ## Tests
-  - No
+  - never
   
   ## License
   This application uses the MIT License license.
@@ -33,6 +33,6 @@
   ## Questions
   undefined</br>
   </br>
-  Github: [hey](https://github.com/hey)<br />
+  Github: [something](https://github.com/something)<br />
   <br />
-  Email with any questions: nope
+  Email with any questions: example@gmail.com
