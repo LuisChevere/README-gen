@@ -16,7 +16,7 @@ function generateMarkdown(answers) {
   
   <h1 align="center">#${answers.title}</h1>
 
-  ![badge](https://img.shields.io/badge/license-${answers.license})<br />
+  ![badge:](https://img.shields.io/badge/license-${answers.license}-yellow)<br />
 
   ## Table of Contents
   - [Description](#description)
