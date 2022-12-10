@@ -53,10 +53,10 @@ function generateMarkdown(answers) {
   ${answers.test}
   
   ## License
-  This application uses the ${answers.license.renderLicenseLink} license.
+  This application uses the ${answers.license} license.
 
   ## Questions
-  Github: [${answers.github}](https://github.com/${answers.github})<br />
+  Github:[${answers.github}](https://github.com/${answers.github})<br />
   <br />
   Email with any questions: ${answers.email}
 `;
