@@ -23,17 +23,20 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if(licenseType === "MIT") {
     yourLicense = `(https://opensource.org/licenses/MIT)`
+    return yourLicense
   } else if(licenseType === "Apache License 2.0") {
     yourLicense = `(https://opensource.org/licenses/Apache-2.0)`
+    return yourLicense
   } else if (licenseType == "Boost Software License 1.0") {
     yourLicense = `(https://www.boost.org/LICENSE_1_0.txt)`
+    return yourLicense
   } else if (licenseType === "Eclipse Public License 2.0") {
     yourLicense = `(https://opensource.org/licenses/EPL-1.0)`
+    return yourLicense
   } else {
     license.license = "N/A"
-  }
-  return yourLicense;
-  
+    return yourLicense
+  }  
 }
 
 // TODO: Create a function that returns the license section of README
@@ -46,7 +49,7 @@ function generateMarkdown(answers) {
   
   <h1 align="center">#${answers.title}</h1>
 
-  ${renderLicenseBadge(license)}<br />
+  ${renderLicenseBadge(answers.license)}<br />
 
   ## Table of Contents
   - [Description](#description)
@@ -69,14 +72,12 @@ function generateMarkdown(answers) {
   ${answers.contributions}
 
   ## Tests
-  - ${answers.test}
+  ${answers.test}
   
   ## License
   This application uses the ${answers.license} license.
 
   ## Questions
-  ${answers.questions}</br>
-  </br>
   Github: [${answers.github}](https://github.com/${answers.github})<br />
   <br />
   Email with any questions: ${answers.email}
