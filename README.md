@@ -1,5 +1,8 @@
 # README-gen
 
+
+
+
 AS A developer
 I WANT a README generator
 SO THAT can quickly create a professional README for a new project 
@@ -21,3 +24,5 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 
+You can view the full Video Here of input: (https://drive.google.com/file/d/1AGi3x1y-d8y1-lpJCr4kdYiS3Ch6YSXt/view?usp=sharing)
+You can view the Generated Results here: (https://drive.google.com/file/d/1pNVLIr_TzzgoLsFD8_wQtnQvcSA_4ybd/view?usp=sharing)
