@@ -1,9 +1,6 @@
 # README-gen
 
-
-
-
-#AS A developer<br />
+## AS A developer<br />
 I WANT a README generator<br />
 SO THAT can quickly create a professional README for a new project<br /> 
 
