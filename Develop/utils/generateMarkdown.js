@@ -10,12 +10,12 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-// function renderLicenseLink(LicenseLink) {
-//   if(LicenseLink !== "None") {
-//     return `(https://opensource.org/licenses/${LicenseLink})`
-//   }
-//   return '';
-// }
+function renderLicenseLink(License) {
+  if(License !== "None") {
+    return `(https://opensource.org/licenses/${License})`
+  }
+  return '';
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -54,6 +54,7 @@ function generateMarkdown(answers) {
   
   ## License
   This application uses the ${answers.license}.<br />
+  
 
   ## Questions
   Github:[${answers.github}](https://github.com/${answers.github})<br />
