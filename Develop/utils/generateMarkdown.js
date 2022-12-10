@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if(license !== 'None') {
-    return `(https://img.shields.io/badge/License-${license}-blue.svg)`
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
 
   }
   return '';
@@ -10,12 +10,12 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if(license !== "None") {
-    return `(https://opensource.org/licenses/${license})`
-  }
-  return '';
-}
+// function renderLicenseLink(LicenseLink) {
+//   if(LicenseLink !== "None") {
+//     return `(https://opensource.org/licenses/${LicenseLink})`
+//   }
+//   return '';
+// }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -53,7 +53,7 @@ function generateMarkdown(answers) {
   ${answers.test}
   
   ## License
-  This application uses the ${answers.license} license.
+  This application uses the ${answers.license}.<br />
 
   ## Questions
   Github:[${answers.github}](https://github.com/${answers.github})<br />
