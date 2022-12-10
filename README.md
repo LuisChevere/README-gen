@@ -3,7 +3,7 @@
 
 
 
-AS A developer<br />
+#AS A developer<br />
 I WANT a README generator<br />
 SO THAT can quickly create a professional README for a new project<br /> 
 
@@ -23,6 +23,6 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents<br />
 THEN I am taken to the corresponding section of the README<br />
 
-[User InputVideo](https://drive.google.com/file/d/1AGi3x1y-d8y1-lpJCr4kdYiS3Ch6YSXt/view?usp=sharing)
+[User Input Video](https://drive.google.com/file/d/1AGi3x1y-d8y1-lpJCr4kdYiS3Ch6YSXt/view?usp=sharing)
 
-[Generated User Results](https://drive.google.com/file/d/1pNVLIr_TzzgoLsFD8_wQtnQvcSA_4ybd/view?usp=sharing)
+[Generated User Results Video](https://drive.google.com/file/d/1pNVLIr_TzzgoLsFD8_wQtnQvcSA_4ybd/view?usp=sharing)
