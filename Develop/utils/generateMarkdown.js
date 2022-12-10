@@ -1,10 +1,40 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  let licenseType = license.license;
+  let yourLicense = "";
+
+  if(licenseType === "MIT") {
+    yourLicense = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+  } else if(licenseType === "Apache License 2.0") {
+    yourLicense = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`
+  } else if (licenseType == "Boost Software License 1.0") {
+    yourLicense = `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]`
+  } else if (licenseType === "Eclipse Public License 2.0") {
+    yourLicense = `[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)]`
+  } else {
+    license.license = "N/A"
+  }
+  return yourLicense;
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if(licenseType === "MIT") {
+    yourLicense = `(https://opensource.org/licenses/MIT)`
+  } else if(licenseType === "Apache License 2.0") {
+    yourLicense = `(https://opensource.org/licenses/Apache-2.0)`
+  } else if (licenseType == "Boost Software License 1.0") {
+    yourLicense = `(https://www.boost.org/LICENSE_1_0.txt)`
+  } else if (licenseType === "Eclipse Public License 2.0") {
+    yourLicense = `(https://opensource.org/licenses/EPL-1.0)`
+  } else {
+    license.license = "N/A"
+  }
+  return yourLicense;
+  
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -16,7 +46,7 @@ function generateMarkdown(answers) {
   
   <h1 align="center">#${answers.title}</h1>
 
-  ![badge:](https://img.shields.io/badge/license-${answers.license}-yellow.svg)<br />
+  ${renderLicenseBadge(license)}<br />
 
   ## Table of Contents
   - [Description](#description)
