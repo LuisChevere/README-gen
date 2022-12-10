@@ -1,6 +1,6 @@
 
   
-  <h1 align="center">#kjdha;kjd</h1>
+  <h1 align="center">#README Generator</h1>
 
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)<br />
 
@@ -13,25 +13,25 @@
   - [Tests](#tests)
 
 ## Description
-  jlsdahgdl
+  It is a nodejs that generates a file upon answering questions stated.
 
   ## Installation
-  ljadshgldvs
+  No need to install.
 
   ## Usage
-  ljdashldsf 
+  It can be used to provide user data. 
   
   ## Contributions
-  jasdhbvjlvf
+  No contribution needed.
 
   ## Tests
-  lasdjhbvldsa
+  Clone Github repo into their local VScode,
   
   ## License
   This application uses the MIT License.<br />
 
 
   ## Questions
-  Github:[jhsadbvl](https://github.com/jhsadbvl)<br />
+  Github:[LuisChevere](https://github.com/LuisChevere)<br />
   <br />
-  Email with any questions: ajlsdvhbvl
+  Email with any questions: Hairchevere@gmail.com
