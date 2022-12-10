@@ -1,8 +1,25 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  let licenseURL
+  switch (license) {
+    case 'MIT License':
+      licenseURL = 'MIT'
+      break;
+      case 'Apache License':
+        licenseURL = 'Apache'
+      break;
+      case 'Mozilla License':
+        licenseURL = 'Mozilla'
+      break;
+      case 'Eclipse License':
+        licenseURL = 'Eclipse'
+      break;
+    default:
+      break;
+  }
   if(license !== 'None') {
-    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    return `![Github license](https://img.shields.io/badge/license-${licenseURL}-blue.svg)`;
 
   }
   return '';
@@ -54,7 +71,7 @@ function generateMarkdown(answers) {
   
   ## License
   This application uses the ${answers.license}.<br />
-  
+
 
   ## Questions
   Github:[${answers.github}](https://github.com/${answers.github})<br />
