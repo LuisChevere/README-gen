@@ -42,7 +42,7 @@ const questions = [
         type: 'list',
         message: 'What license is used for your project?',
         name: 'license',
-        choices: ['MIT License', 'Apache License 2.0', 'Boost Software License 1.0', 'Eclipse Public License 2.0', "N/a"],
+        choices: ['MIT License', 'Apache License 2.0', 'Mozilla Public License 2.0', 'Eclipse Public License 2.0', "N/a"],
     },
     {
         type: 'input',
